@@ -24,7 +24,14 @@
 2.3 Остановить докер-образ и проверить его остановку:
 ![docker stop, docker ps](./screens/docker-stop.png)
 
+3.1 Запустить докер с портами 80 и 443 в контейнере, замапленными на такие же порты на локальной машине:
+![docker run -d -p](./screens/nginx-ports:80_443.png)
 
+3.2 Проверить браузер по адресу localhost:80
+![localhost:80](./screens/nginx-FireFox.png)
+
+3.3 Перезапустить контейнер командой docker restart [containerID]. Проверить, что контейнер перезапустился:
+![docker restart $ID](./screens/docker_restart.png)
 
 ## Part 2
 1. Start
