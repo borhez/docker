@@ -1,4 +1,4 @@
-## Part1
+## Part 1
 1. Выполнение команд:
 - docker pull nginx
 - docker images
@@ -21,7 +21,11 @@
 - ip-контейнера:
 ![docker inspect $containerID](./screens/inspect_4.jpeg)
 
+2.3 Остановить докер-образ и проверить его остановку:
+![docker stop, docker ps](./screens/docker-stop.png)
 
-## Part2
+
+
+## Part 2
 1. Start
 
