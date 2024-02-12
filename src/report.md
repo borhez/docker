@@ -1,4 +1,4 @@
-##Part1
+## Part1
 1. Выполнение команд:
 - docker pull nginx
 - docker images
@@ -22,6 +22,6 @@
 ![docker inspect $containerID](./screens/inspect_4.jpeg)
 
 
-##Part2
+## Part2
 1. Start
 
