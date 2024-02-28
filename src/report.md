@@ -49,4 +49,5 @@
     ![docker cp](./screens/docker-cp.png)
     - перезапускаю nginx:
     ![nginx reload](./screens/nginx-reload.png)
-
+    - проверить в браузере ответ nginx:
+    ![nginx-response](./screens/nginx-status-brauser.png)
