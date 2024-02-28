@@ -37,5 +37,10 @@
 1. Прочитать конфигурацию nginx командой exec:
 ![nginx-reading](./screens/nginx-reading.png)
 
-2.
+2. Настроить на локальной машине nginx.conf, чтобы запро localhost/status отдавал приветственную страницу nginx:
+
+    - копирую nginx.conf из контейнера на локальную машину:
+    ![nginx-cp](./screens/nginx-cp.png)
+    - изменяю этот файл:
+    ![edit nginx.conf](./screens/nginx-editConf.png)
 
