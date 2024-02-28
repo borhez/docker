@@ -51,3 +51,6 @@
     ![nginx reload](./screens/nginx-reload.png)
     - проверить в браузере ответ nginx:
     ![nginx-response](./screens/nginx-status-brauser.png)
+    
+3. Экспортирую контейнер в файл container.tar:
+![docker export](./screens/docker-export.png)
