@@ -34,5 +34,8 @@
 ![docker restart $ID](./screens/docker_restart.png)
 
 ## Part 2
-1. Start
+1. Прочитать конфигурацию nginx командой exec:
+![nginx-reading](./screens/nginx-reading.png)
+
+2.
 
