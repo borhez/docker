@@ -43,4 +43,7 @@
     ![nginx-cp](./screens/nginx-cp.png)
     - изменяю этот файл:
     ![edit nginx.conf](./screens/nginx-editConf.png)
+    - создаю в контейнере папку /status и копирую в неё /index.html:
+    ![/status](./screens/nginx-mkdir-status.png)
+    
 
