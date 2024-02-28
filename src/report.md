@@ -37,7 +37,7 @@
 1. Прочитать конфигурацию nginx командой exec:
 ![nginx-reading](./screens/nginx-reading.png)
 
-2. Настроить на локальной машине nginx.conf, чтобы запро localhost/status отдавал приветственную страницу nginx:
+2. Настроить на локальной машине nginx.conf, чтобы запрос localhost/status отдавал приветственную страницу nginx:
 
     - копирую nginx.conf из контейнера на локальную машину:
     ![nginx-cp](./screens/nginx-cp.png)
@@ -45,5 +45,8 @@
     ![edit nginx.conf](./screens/nginx-editConf.png)
     - создаю в контейнере папку /status и копирую в неё /index.html:
     ![/status](./screens/nginx-mkdir-status.png)
-    
+    - копирую nginx.conf из localhost в контейнер:
+    ![docker cp](./screens/docker-cp.png)
+    - перезапускаю nginx:
+    ![nginx reload](./screens/nginx-reload.png)
 
