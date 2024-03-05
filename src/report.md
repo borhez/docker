@@ -51,6 +51,18 @@
     ![nginx reload](./screens/nginx-reload.png)
     - проверить в браузере ответ nginx:
     ![nginx-response](./screens/nginx-status-brauser.png)
-    
+
 3. Экспортирую контейнер в файл container.tar:
 ![docker export](./screens/docker-export.png)
+
+4. Останавливаю контейнер:
+![docker-stop-final](./screens/docker-stop-final.png)
+
+5. Удаляю образ-nginx, не удаляя контейнер.
+![docker rmi](./screens/docker-rmi--force.png)
+
+6. Далее удаляю контейнер:
+![docker rm](./screens/docker-rm-container.png)
+
+7. Импортирую контейнер из container.tar:
+![docker import](./screens/docker-import.png)
