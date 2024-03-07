@@ -64,5 +64,4 @@
 6. Далее удаляю контейнер:
 ![docker rm](./screens/docker-rm-container.png)
 
-7. Импортирую контейнер из container.tar:
-![docker import](./screens/docker-import.png)
+
