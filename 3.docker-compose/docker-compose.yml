@@ -7,7 +7,7 @@ services:
   nginx1:
     build:
       context: ./nginx1/
-    container_name: serv1_p12345
+    container_name: serv1
     restart: no
     ports:
       - 12345:80
@@ -17,7 +17,7 @@ services:
   nginx2:
     build:
       context: ./nginx2/
-    container_name: serv2_p56789
+    container_name: serv2
     restart: no
     ports:
       - 56789:80
@@ -29,6 +29,6 @@ services:
 networks:
   net1:
     labels:
-      - net_myfirstcompose
+      - net_for1stcompose
 
 
